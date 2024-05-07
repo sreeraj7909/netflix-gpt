@@ -10,3 +10,14 @@ export const LOGIN_BG_MD=
 
 export const LOGIN_BG_SM=
 "https://assets.nflxext.com/ffe/siteui/vlv3/4d7bb476-6d8b-4c49-a8c3-7739fddd135c/deecf71d-7a47-4739-9e1a-31b6b0d55be7/IN-en-20240429-popsignuptwoweeks-perspective_alpha_website_small.jpg"
+
+export const USER_AVTR="https://avatars.githubusercontent.com/u/6759280?v=4"
+
+
+export const API_OPTIONS = {
+    method: 'GET',
+    headers: {
+      accept: 'application/json',
+      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxYTk3OWU3ODY4MWNmMmJhNTdmNWYzNTQ1ZTI4ZmFjYSIsInN1YiI6IjY2MzllZDkwNTQ1MDhkMDEyMmQzYmE1OSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.7dvSypWW7Zujh0tmJU2wCbq1YedttmrQBTZOAAIQeEk'
+    }
+  };

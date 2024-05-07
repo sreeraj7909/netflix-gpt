@@ -4,13 +4,13 @@ import Header from './Header'
 import { LOGIN_BG_LG } from '../utils/constants'
 import { checkValidateData } from '../utils/validate'
 import {auth} from "../utils/firebase"
-import {useNavigate} from "react-router-dom"
+
 import { useDispatch } from 'react-redux';
 import { addUser } from '../utils/userSlice';
 
 const Login = () => {
   const dispatch=useDispatch()
-  const navigate=useNavigate()
+  
   const [isSignIn,setIsSignIn]=useState(true)
   const [errMessage,setErrMessage]=useState(null)
   const toggleTisgnInForm=()=>{
@@ -36,13 +36,13 @@ const Login = () => {
     const user = userCredential.user;
     updateProfile(user, {
       displayName: name.current.value, 
-      photoURL: "https://example.com/jane-q-user/profile.jpg"
+      
     }).then(() => {
       const {uid,email,displayName} = auth.currentUser;
       console.log("Updating")
       dispatch(addUser({uid:uid,email:email,displayName:displayName}))
       console.log(auth.currentUser.displayName)
-      navigate("/browser")
+      
       // Profile updated!
       // ...
     }).catch((error) => {
@@ -51,13 +51,12 @@ const Login = () => {
       // ...
     });
     console.log(user)
-    navigate("/browser")
+    
     
     // ...
   })
   .catch((error) => {
-    const errorCode = error.code;
-    const errorMessage = error.message;
+    
     setErrMessage("Email or password is incorrect")
 
     console.log(errMessage)
