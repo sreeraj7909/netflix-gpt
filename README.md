@@ -2,6 +2,16 @@
 # tailwindcss setup done
 # Header Done
 # setup login form
+# Routing done
+# form validation 
+# useRef hook
+# firebase setup
+# App deployed on production
+# create signup user account
+# Implimented signin user API
+# Creatd Redux store with user slice
+# signout implimented
+# update profile done
  
 
 
