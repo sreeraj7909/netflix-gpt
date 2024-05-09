@@ -1,7 +1,9 @@
 import MovieCard from "./MoviCard";
 
 const MovieList=({title,movies})=>{
-    console.log(movies)
+    //console.log(movies)
+    if(!title) return null
+
     return (
         <div className="px-6 text-white">
             <h1 className=" text-2xl italic py-4">{title}</h1>

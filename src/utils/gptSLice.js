@@ -4,10 +4,15 @@ const gptSlice=createSlice({
     name:"gpt",
     initialState:{
         showGptSearch:false,
+        searchMovies:null
     },
     reducers:{
         toggleGptSearchView:(state,action)=>{
             state.showGptSearch=!state.showGptSearch
+        },
+        tmdbMovieResults:(state,action)=>{
+            state.searchMovies=action.payload
+
         }
 
     }
@@ -15,4 +20,4 @@ const gptSlice=createSlice({
 
 export default gptSlice.reducer
 
-export const {toggleGptSearchView} =gptSlice.actions
+export const {toggleGptSearchView,tmdbMovieResults} =gptSlice.actions

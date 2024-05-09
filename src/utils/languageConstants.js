@@ -1,15 +1,15 @@
 const lang={
     english:{
         search:"Search",
-        gptSearch_placeholder:"What would you watch to see today?"
+        gptSearch_placeholder:"Search your movie?"
     },
     malayalam:{
         search:"തിരയുക",
-        gptSearch_placeholder:"ഇന്ന് നിങ്ങൾ എന്താണ് കാണേണ്ടത്?"
+        gptSearch_placeholder:"നിങ്ങളുടെ സിനിമ തിരയണോ?"
     },
     hindi:{
         search:"खोज",
-        gptSearch_placeholder:"आज आप क्या देखना चाहेंगे?"
+        gptSearch_placeholder:"अपनी फ़िल्म खोजें?"
 
     },
     

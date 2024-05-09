@@ -1,15 +1,18 @@
 import Gptsearchbar from "./Gptsearchbar";
 import { LOGIN_BG_LG } from "../utils/constants";
+import Gptsearchsuggesion from "./Gptsearchduggesion";
 
 const GptSearchpage=()=>{
     return(
-        <div>
-            <div className='absolute -z-50'>
-                <img alt='' src={LOGIN_BG_LG}/>
-           </div>
-            <Gptsearchbar/>
-            Gpt search suggesions
+        <>
+        <div className='fixed -z-50'>
+            <img className="h-screen object-cover md:w-screen" alt='' src={LOGIN_BG_LG}/>
         </div>
+        <div className>
+            <Gptsearchbar/>
+            <Gptsearchsuggesion/>
+        </div>
+        </>
     )
 }
 

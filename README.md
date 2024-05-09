@@ -12,6 +12,8 @@
 # Creatd Redux store with user slice
 # signout implimented
 # update profile done
+# Home page maincontainer and subcontainer is done
+# search page with done
  
 
 

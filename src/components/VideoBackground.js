@@ -7,7 +7,7 @@ const VideoBackground = ({id}) => {
    
     //fetching the trailer videos and updating the store
     const trailerVideo=useSelector((store)=>store.movies?.trailerVideo)
-    console.log(trailerVideo)
+    
     // const trailerKey = trailerVideo[0].key;
     // console.log(trailerKey);
     

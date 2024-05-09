@@ -18,9 +18,9 @@ export const API_OPTIONS = {
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxYTk3OWU3ODY4MWNmMmJhNTdmNWYzNTQ1ZTI4ZmFjYSIsInN1YiI6IjY2MzllZDkwNTQ1MDhkMDEyMmQzYmE1OSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.7dvSypWW7Zujh0tmJU2wCbq1YedttmrQBTZOAAIQeEk'
+      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxYTk3OWU3ODY4MWNmMmJhNTdmNWYzNTQ1ZTI4ZmFjYSIsInN1YiI6IjY2MzllZDkwNTQ1MDhkMDEyMmQzYmE1OSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.7dvSypWW7Zujh0tmJU2wCbq1YedttmrQBTZOAAIQeEk' 
     }
-  };
+  }
 
  export const POSTER_CDN_URL = "https://image.tmdb.org/t/p/w500"
 
@@ -28,3 +28,5 @@ export const API_OPTIONS = {
  export const SUPPORTED_LANGUAGES=[{identifire:"english",name:"english"},
                                    {identifire:"malayalam",name:"malayalam"},
                                    {identifire:"hindi",name:"hindi"}]
+
+//export const OPENAI_API_KEY="sk-proj-pTERrRPBR1TlRVJwQd1mT3BlbkFJU8UitAkTjntToOIVeJqb"
