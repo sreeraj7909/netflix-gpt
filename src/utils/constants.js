@@ -29,4 +29,3 @@ export const API_OPTIONS = {
                                    {identifire:"malayalam",name:"malayalam"},
                                    {identifire:"hindi",name:"hindi"}]
 
-//export const OPENAI_API_KEY="sk-proj-pTERrRPBR1TlRVJwQd1mT3BlbkFJU8UitAkTjntToOIVeJqb"
